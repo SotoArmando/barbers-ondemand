@@ -1,0 +1,130 @@
+/* footer.css */
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    height: 12.5rem;
+    width: unset;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  /* Footer Content Wrapper */
+  .footer-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: unset;
+    width: 60rem;
+    justify-content: start;
+    align-items: stretch;
+    max-width: 90vw;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 12.5rem;
+    width: unset;
+    justify-content: start;
+    align-items: stretch;
+    padding: 2.5rem 1.25rem;
+  }
+  
+  /* Footer Links Container */
+  .footer-links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    height: 4.5rem;
+    width: unset;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  /* Footer Link Item */
+  .footer-link-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: unset;
+    width: 10rem;
+    justify-content: start;
+    align-items: stretch;
+  }
+  
+  /* Footer Link Text */
+  .footer-link-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(153, 109.65, 76.5);
+  }
+  
+  /* Footer Social Icons Container */
+  .footer-social-icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 1.5rem;
+    width: unset;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  /* Footer Social Icon Item */
+  .footer-social-icon-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: unset;
+    width: 1.5rem;
+    justify-content: start;
+    align-items: stretch;
+  }
+  
+  /* Footer Social Icon Bar */
+  .footer-social-icon-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: 1.5rem;
+    width: unset;
+    justify-content: start;
+    align-items: stretch;
+  }
+  
+  /* Footer Social Icon Bar Color */
+  .footer-social-icon-bar-color {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: 1.5rem;
+    width: unset;
+    justify-content: start;
+    align-items: stretch;
+  }
+  .underline-text {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+  .underline-text > div {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0; /* Initial width is 0 */
+    height: 1px;
+    background-color: rgb(153, 109.65, 76.5);
+    transition: none; /* Disable CSS transitions, we'll use GSAP */
+  }

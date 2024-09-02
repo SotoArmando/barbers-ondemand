@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* FAQ Label Container */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 3.75rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+  padding: 1.25rem 1rem 0.75rem 1rem;
+}
+
+/* FAQ Label Text */
+.faq-text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: rgb(28, 17, 12);
+}

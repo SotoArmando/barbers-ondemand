@@ -1,0 +1,64 @@
+/* Services Row Container */
+.services-row-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: start;
+    align-items: stretch;
+    padding: 1rem;
+  }
+  
+  /* Services Row */
+  .services-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: start;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  
+  /* Service Card */
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: start;
+    align-items: stretch;
+    padding-bottom: 0.75rem;
+    width: 13.9375rem;
+  }
+  
+  /* Service Image */
+  .service-image {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 13.9375rem;
+    justify-content: start;
+    align-items: stretch;
+    border-radius: 0.75rem;
+  }
+  
+  /* Service Title */
+  .service-title {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: rgb(28.05, 17.85, 12.75);
+  }
+  
+  /* Service Description */
+  .service-description {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    color: rgb(153, 109.65, 76.5);
+  }
+  

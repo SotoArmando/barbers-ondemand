@@ -1,0 +1,86 @@
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+  background-color: rgb(252, 249, 247);
+}
+
+.review-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 2.8125rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.review-name {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgb(28, 18, 13);
+}
+
+.review-date {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  color: rgb(153, 110, 77);
+}
+
+.review-rating {
+  display: flex;
+  flex-direction: row;
+  gap: 0.125rem;
+  height: 1.25rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.rating-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 0.125rem;
+}
+
+.rating-star {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  justify-content: start;
+  align-items: stretch;
+  background-size: contain;
+}
+
+.rating-star::before {
+  content: "";
+  display: block;
+  height: 1.25rem;
+  width: 1.25rem;
+  /* background-color: rgb(237, 127, 43); */
+}
+
+
+
+.review-text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: rgb(28, 18, 13);
+}

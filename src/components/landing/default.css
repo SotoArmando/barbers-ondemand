@@ -1,0 +1,115 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 32rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 32rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.landing-background {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 30rem;
+  width: unset;
+  justify-content: end;
+  align-items: stretch;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: url("") no-repeat center center;
+  background-size: cover;
+}
+
+.landing-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.landing-title {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.landing-subtitle {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.landing-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  height: 3rem;
+  width: unset;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.landing-button-ios {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  height: unset;
+  width: 11.625rem;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0rem 1.25rem;
+  border-radius: 0.75rem;
+  background-color: rgb(237, 127.5, 43.35);
+  border: 0.2rem solid transparent;
+}
+
+.landing-button-android {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  height: unset;
+  width: 14rem;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0rem 1.25rem;
+  border-radius: 0.75rem;
+  background-color: rgb(242, 237.15, 232.05);
+  border: 0.2rem solid transparent;
+}
+
+.landing-button-text {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: rgb(28.05, 17.85, 12.75);
+  
+}

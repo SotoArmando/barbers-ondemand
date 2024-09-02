@@ -1,0 +1,74 @@
+/* button-banner.css */
+
+/* Button Banner Container */
+.button-banner-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    height: 4rem;
+    width: unset;
+    justify-content: end;
+    align-items: stretch;
+    padding: 0.75rem 1rem;
+  }
+  
+  /* Button Banner Button */
+  .button-banner-button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    height: unset;
+    width: 10.625rem;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0rem 1rem;
+    border-radius: 0.75rem;
+    background-color: rgb(237, 127.5, 43.35);
+    border: 0.2rem solid transparent;
+  }
+  
+  /* Button Banner Indicator */
+  .button-banner-indicator {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: unset;
+    width: 1.25rem;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  /* Button Banner Indicator Bar */
+  .button-banner-indicator-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: 1.25rem;
+    width: unset;
+    justify-content: start;
+    align-items: stretch;
+    background-color: rgb(28, 17, 12);
+  }
+  
+  /* Button Banner Indicator Gap */
+  .button-banner-indicator-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: 1rem;
+    width: unset;
+    justify-content: start;
+    align-items: stretch;
+  }
+  
+  /* Button Banner Text */
+  .button-banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 700;
+    color: rgb(28, 17, 12);
+  }
+  

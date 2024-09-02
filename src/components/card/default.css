@@ -1,0 +1,47 @@
+/* General Styles */
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 13.9375rem;
+  padding: 0 0 0.75rem 0;
+}
+
+.card-image {
+  display: flex;
+  height: 13.9375rem;
+  width: unset;
+  border-radius: 0.75rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.card-title {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgb(28, 17, 12);
+}
+
+.card-description {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  color: rgb(153, 109, 76);
+}

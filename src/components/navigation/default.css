@@ -1,0 +1,148 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  height: 4.0625rem;
+  max-height: 4.0625rem;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0.75rem 2.5rem;
+  box-sizing: border-box;
+  position: fixed;
+  border-bottom: 0.0625rem solid #e5e8eb;
+  background: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 4.5625rem;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.navbar-logo-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  width: 1rem;
+  justify-content: start;
+  align-items: stretch;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar-logo-icon-rectangles > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 1rem;
+  background-color: rgb(28.05, 17.85, 12.75);
+}
+
+.navbar-logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  width: 2.5625rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.navbar-logo-text div {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+  font-weight: 700;
+  color: rgb(28.05, 17.85, 12.75);
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 70.4375rem;
+  justify-content: end;
+  align-items: stretch;
+}
+
+.navbar-button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: 13.125rem;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.navbar-button {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  width: 10.125rem;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0rem 1rem;
+  border-radius: 0.75rem;
+  background-color: rgb(242.25, 237.15, 232.05);
+  border: 0.2rem solid transparent;
+}
+
+.navbar-button-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  width: 8.125rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.navbar-button-text div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 700;
+  color: rgb(28.05, 17.85, 12.75);
+}
+
+.navbar-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: 2.5rem;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0rem 0.625rem;
+  border-radius: 0.75rem;
+  background-color: rgb(242.25, 237.15, 232.05);
+}
+
+.navbar-icon-image {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  width: 1.25rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.navbar-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  width: 2.5rem;
+  justify-content: start;
+  align-items: stretch;
+  border-radius: 1.25rem;
+  background-size: cover;
+}
